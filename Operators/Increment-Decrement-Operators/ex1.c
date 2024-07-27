@@ -1,3 +1,4 @@
+// opreters //
 #include<stdio.h>
 int main()
 {
