@@ -13,7 +13,7 @@ a=50
 a++
 1.a++
    50+1=51 
-note:-a = 50[becuse of post increment fist a value is 50 after print 50 to a++ and a=51 is go to next opretion]
+note:-a = 50[becuse of post increment old  value is 50 after print 50 to a++ and a=51 is go to next opretion]
 condition2:-
 a=51
 1.++a
