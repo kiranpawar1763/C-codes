@@ -7,7 +7,7 @@ int main()
     float m3 = 80 ;// so- science
     float m4 = 90; // science
     float m5 =75; //math
-    float p = (m1 + m2 + m3 + m4 + m5)/5;//fprmula
+    float p = (m1 + m2 + m3 + m4 + m5)/5;//formula
     printf("total percentage : %f",p);
     return 0;
 }
