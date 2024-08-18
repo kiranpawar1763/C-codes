@@ -36,3 +36,33 @@ int main()
      return 0;
 
 }
+/*
+#include<stdio.h>
+void main()
+{
+    int units;
+    float billAmount, total;
+    printf("\nEnter Units: ");
+    scanf("%d",&units);
+
+    if(units <= 50)
+    {
+        billAmount = units * 0.50;
+    }
+    else if(units <= 150)
+    {
+        billAmount = 50 * 0.50 + (units - 50) * 0.75;
+    }
+    else if(units <= 250)
+    {
+        billAmount = 50 * 0.50 + 50 * 0.75 + (units - 100) * 1.20;
+    }
+    else
+    {
+        billAmount = 50 * 0.50 + 50 * 0.75 + 100 * 1.20 + (units - 200) * 1.50;
+    }
+
+    total = (billAmount / 100) * 20 + billAmount;
+    printf("\nBill Amount is %.2f", total);
+}
+*/

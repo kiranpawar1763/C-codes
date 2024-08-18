@@ -11,13 +11,30 @@ Output as :
 
 Number of days: 30*/
 #include<stdio.h>
-int main()
+void main()
 {
-    int  cho ,jan ,feb ,mar ,apr ,jun ,jul ,aug ,sep ,oct ,nov ,des;
-    printf("enter the month:");
-    scanf("%d",&cho);
-    __INT_FAST64_MAX__
-    
-
-    
+    int month;
+    printf("\nEnter Month: ");
+    scanf("%d",&month);
+    if(month <= 12)
+    {
+        if(month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)
+        {
+            printf("\nNumber of days: 31");
+        }
+        else if(month == 2)
+        {
+            printf("\nNumber of days: 28");
+        }
+        else
+        {
+            printf("\nNumber of days: 30");
+        }
+    }
+    else
+    {
+        printf("\nInvalid Month\nPlease enter month between 1-12\n");
+    }
 }
+
+
