@@ -30,90 +30,82 @@ Bill
 * For engine issue cost is Rs.5000
 * For general servicing cost is Rs.1000
 And generate the bill in the above form*/
-/*#include<stdio.h>
+#include<stdio.h>
 void main()
 {
-    int wheelers ,age;
-    char owner[20],bike[20],tyre[20];
-    printf("enter the owner name");
-    scanf("%s",owner);
-    printf("enter the bike name");
-    scanf("%s",bike);
-    printf("\nEnter the vehicle wheels");
+    int wheelers ,age ,choice,trye,Bill;
+    char name[20],vehicle[20];
+    printf("enter the wheelers: ");
     scanf("%d",&wheelers);
-    if(wheelers >=2 && 3 && 4)
+
+    if(wheelers==2 ||wheelers==3 ||wheelers==4)
     {
-    printf(" welcome ") ;
-    printf(" age of verical "); 
-     scanf("%d",&age);
+        printf("enter the  vehicle age:");
+        scanf("%d",&age);
+        if(age>=8)
         {
-        if ("age>=8") printf("welcome");
+            printf("\n enter the owner name:");
+            scanf("%s",name);
 
-        
-            else printf("your  servie will done after a while");
+            printf("\nenter the vehicle name : ");
+            scanf("%s",vehicle);
+            
+                ch:
+                printf("\nEnter 1 for tyre problem:");
 
-        }
-     
-  
-    
-    
-    
+                printf("\nEnter 2 for fuel problem:");
+
+                printf("\nEnter 3 for engine issue:");
+
+                printf("\nEnter 4 for general services:") ; 
+                scanf("\n%d",&choice);
+                    switch (choice)
+                    {
+                     case 1:
+                      printf("\nEnter How many tyres you are facing the issue:");
+                    scanf("%d", &trye);
+                    Bill = trye * 400;
+                    printf("\nName of Owner is %s", name);
+                    printf("\nName of Vehicle is %s", vehicle);
+                    printf("\nTyre Problem");
+                    printf("\nBill Amount is %d", Bill);
+                    break;
+                    case 2:
+                    Bill = 1500;
+                    printf("\nname of owner is %s",name);
+                    printf("\nname of the vehicle is %s",vehicle);
+                    printf("\n fule tank Issue");
+                    printf("\n Bill amount is %d",Bill);
+                    break ;
+                    case 3:
+                    Bill =5000;
+                    printf("\nName of the Owner is %s",name);
+                    printf("\nName of the vehicle %s",vehicle);
+                    printf("\nEgine issue ");
+                    printf("\nBill Amount %d",Bill);
+                    break;
+                    case 4:
+                    Bill = 1000 ;
+                    printf("\nName of the owner is %s",name);
+                    printf("\nName of vehicle %s",vehicle);
+                    printf("\ngeneral servicing");
+                    printf("\nBill Amount %d",Bill);
+                    break;
+                    default:
+                    printf("\nInvalid choice\n");
+                    goto ch;
+                    break;
+
+                }
+                
+
+        }else
+             {
+                printf("your  servie will done after a while");
+             }
     }
-    else printf("sorry this service center is not accepting other than 2 wheeler, 3 wheeler and 4 wheeler");
-  
-} */
-#include <stdio.h>
-
-int main() {
-    char nationality;
-    char gender;
-    int age;
-
-    // Ask for nationality
-    printf("Enter your nationality (I/i for Indian): ");
-    scanf(" %c", &nationality);
-
-    // Check if the nationality is Indian
-    if (nationality == 'I' || nationality == 'i') {
-        // Ask for gender
-        printf("Enter your gender (M/F): ");
-        scanf(" %c", &gender);
-
-        // Check if the gender is male
-        if (gender == 'M' || gender == 'm') {
-            // Ask for age
-            printf("Enter your age: ");
-            scanf("%d", &age);
-
-            // Check age eligibility for males
-            if (age >= 21 && age <= 50) {
-                printf("Congratulations! You are eligible for marriage.\n");
-            } else {
-                printf("Sorry! You are not eligible for marriage.\n");
-            }
-        }
-        // Check if the gender is female
-        else if (gender == 'F' || gender == 'f') {
-            // Ask for age
-            printf("Enter your age: ");
-            scanf("%d", &age);
-
-            // Check age eligibility for females
-            if (age >= 18 && age <= 45) {
-                printf("Congratulations! You are eligible for marriage.\n");
-            } else {
-                printf("Sorry! You are not eligible for marriage.\n");
-            }
-        }
-        // Invalid gender input
-        else {
-            printf("Invalid gender input.\n");
-        }
-    } 
-    // If nationality is not Indian
-    else {
-        printf("Eligibility check is only for Indian citizens.\n");
-    }
-
-
+     else
+        {
+            printf("this service center is not accepting other than 2 wheeler, 3 wheeler and 4 wheeler");
+        }  
 }
