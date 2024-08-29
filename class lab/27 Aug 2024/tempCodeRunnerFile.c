@@ -1,0 +1,1 @@
+printf("%d and cube of the %d is %d",i,i,cube);
