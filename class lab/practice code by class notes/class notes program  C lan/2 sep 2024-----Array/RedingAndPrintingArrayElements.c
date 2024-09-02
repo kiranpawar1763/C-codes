@@ -11,4 +11,5 @@ void main()
     printf("Element");
     for(i=0;i<=0;i++)
     printf("%4d",i[a]);
+    
 }
