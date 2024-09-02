@@ -8,6 +8,7 @@ void main()
     printf("Enter the %d element:",n);
     for(e=o=z=i=0;i<n;i++)
     {
+
         scanf("%d",&a[i]);
         if(a[i]==0)
         z++;
