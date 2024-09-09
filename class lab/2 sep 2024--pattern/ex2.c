@@ -7,26 +7,26 @@
 4   9   14   19
 5   10  15   20*/
 
-//  #include<stdio.h>
-// void main()
-// {
-//     int nr, nc, i, j, a;
-//     printf("\nEnter row & column: ");
-//     scanf("%d %d", &nr, &nc);
-//     a=1;
-//     for(i=1; i<=nr; i++)
-//     {
-//         for(j=1; j<=nc; j++)
-//         {
-//             printf("%4d", a);
-//             a = a+5;
-//         }
+ #include<stdio.h>
+void main()
+{
+    int nr, nc, i, j, a;
+    printf("\nEnter row & column: ");
+    scanf("%d %d", &nr, &nc);
+    a=1;
+    for(i=1; i<=nr; i++)
+    {
+        for(j=1; j<=nc; j++)
+        {
+            printf("%4d", a);
+            a = a+5;
+        }
         
-//         a = a-19;
-//         printf("\n");
-//     }
+        a = a-19;
+        printf("\n");
+    }
 
-// }
+}
 #include <stdio.h>
 
 int main() 

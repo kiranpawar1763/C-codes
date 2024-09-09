@@ -11,6 +11,7 @@ Expected Output :
 1 + 11 + 111 + 1111 + 11111
 
 The Sum is : 12345*/
+1 +11+111
 #include<stdio.h>
 void main()
 {

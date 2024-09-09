@@ -9,28 +9,28 @@ Output as:
 145 is a strong number.
 */
 
-#include<stdio.h>
-void main()
-{
-    int n, fact, sum=0, r, i, m;
-    printf("\nEnter a number: ");
-    scanf("%d", &n);
+// #include<stdio.h>
+// void main()
+// {
+//     int n, fact, sum=0, r, i, m;
+//     printf("\nEnter a number: ");
+//     scanf("%d", &n);
     
-    for(m=n; m!=0; m=m/10)
-    {
-        for(r=m%10, fact=1; r>1; r--)
-        {
-            fact*=r;
-        }
-        sum+=fact;
-    }
+//     for(m=n; m!=0; m=m/10)
+//     {
+//         for(r=m%10, fact=1; r>1; r--)
+//         {
+//             fact*=r;
+//         }
+//         sum+=fact;
+//     }
    
   
-      if(sum == n)
-    {
-        printf("\n%d it is strong number:", n);
-    }
-    else{
-        printf("\n %d is not a Strong number", n);
-    }
-}
+//       if(sum == n)
+//     {
+//         printf("\n%d it is strong number:", n);
+//     }
+//     else{
+//         printf("\n %d is not a Strong number", n);
+//     }
+// }

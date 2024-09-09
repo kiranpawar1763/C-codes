@@ -2,12 +2,11 @@
 int main()
 {
     int a,b;
-    printf("\nEnter the cost price");
+    printf("\nEnter the cost price:");
     scanf("%d",&a);
-    printf("profit parcentage");
+    printf("profit parcentage:");
     scanf("%d",&b);
-    //printf("")
-    int sp=(100+b%)/100*a;
+    int sp=(100+b)/100*a;
     printf(" total %d",sp);
 
 }

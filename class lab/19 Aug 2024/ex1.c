@@ -11,6 +11,7 @@ Attendant: "Welcome to our Tea Stall Counter! Our menu:"
 
 Tea --------------------- Rs. 10
 
+
 Coffee ------------------ Rs. 20
 
 Cold coffee ------------- Rs. 50

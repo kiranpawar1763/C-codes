@@ -1,4 +1,5 @@
 // print n prime numbers
+prime
 #include<stdio.h>
 int main()
 {
