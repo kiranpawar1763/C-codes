@@ -1,4 +1,4 @@
-//Decimal to octal
+//De hexa
 
 #include<stdio.h>
 void main()
@@ -6,7 +6,7 @@ void main()
     int a[16]={0},n,i;
     printf("Enter the no:");
     scanf("%d",&n);
-    for(i=0;n!=0;i++,n=n/16)a[i]=n%16; //dec to oct
+    for(i=0;n!=0;i++,n=n/16)a[i]=n%16; /
     printf("Octal code");
     for(i=15;i>=0;i--)
     if(a[i]<10)

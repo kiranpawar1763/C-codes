@@ -15,6 +15,7 @@ Input 2:-
 
 [1,2,3,4,3,6]
 Enter the number you want to search : 9*/
+
 #include<stdio.h>
 void main()
 {

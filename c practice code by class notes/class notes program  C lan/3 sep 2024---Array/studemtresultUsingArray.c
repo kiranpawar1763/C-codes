@@ -14,6 +14,7 @@ void main()
         if(sub[i<=35])
         p=0;
         
+        
     }
     avg = tot/6.0;
     printf("%s tot=%d,avg=%.2f and got %s",name,tot,avg,p?"passed":"failed");

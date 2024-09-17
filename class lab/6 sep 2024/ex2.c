@@ -43,6 +43,7 @@ for(i=0;i<=n-2;i++)
 }
 
 }
+
 #include<stdio.h>
 void main()
 {

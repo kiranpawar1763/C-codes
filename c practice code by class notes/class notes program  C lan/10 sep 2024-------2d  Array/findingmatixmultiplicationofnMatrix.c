@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<conio.h>
 void tummy(float a){float *p=&a;}
