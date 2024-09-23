@@ -5,7 +5,10 @@ char * max(int*a,int*b)
 }
 void main()
 {
-    int x=10,y=10;
-    char *z=max(&x,&y);
+    int x,y;
+    char *z;
+    printf("Enter the x and Y value ");
+    scanf("%d %d",&x,&y);
+    z=max(&x,&y);
     printf(z);
 }
