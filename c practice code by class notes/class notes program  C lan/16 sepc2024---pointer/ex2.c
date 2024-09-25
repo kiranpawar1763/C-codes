@@ -2,7 +2,7 @@
 void main()
 {
     int n,*p=&n;
-    printf("enter the number:");
+    printf("enter the number");
     scanf("%d",&n);
     if(*p%2==0)
     {
