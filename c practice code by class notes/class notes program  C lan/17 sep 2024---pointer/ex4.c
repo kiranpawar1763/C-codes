@@ -5,6 +5,6 @@ void main()
     printf("Enter the string:");
     scanf("%s",s);
     for(; *p;p++)
-    printf("%S",p);
+    printf("%s\n",p);
 }
 
